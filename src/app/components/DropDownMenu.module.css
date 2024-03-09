@@ -3,19 +3,23 @@
   user-select: none;
   align-items: center;
   text-align: center;
+  width: 25%;
+  padding: 5%;
 }
 
 .dropdown-main-button {
-  background-color: white;
   cursor: pointer;
   border-style: solid;
   border: none;
-  font-size: medium;
+  font-size: 30px;
+  width: 50%;
+  text-align: center;
+  background-color: white;
+  padding-bottom: 15px;
 }
 
 .dropdown-main-button-border-default {
   border-style: solid;
-  border-color: white;
   border: none;
   cursor: pointer;
 }
@@ -24,7 +28,6 @@
   border-style: solid;
   animation: underlineGradualy 0.5s;
   text-align: center;
-  width: 100%;
   border-width: 1px;
   cursor: pointer;
 }
@@ -41,26 +44,26 @@
 
 .dropdown-option-button {
   border-radius: 2px;
-  font-size: medium;
-  width: 100%;
   text-align: center;
   border: none;
-  background-color: transparent;
   cursor: pointer;
+  font-size: 30px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background-color: transparent;
 }
 
 .dropdown-options-div {
-  text-align: center;
   animation: fadeIn 0.5s;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .dropdown-option-button:hover {
-  background-color: #f0f0f0;
+  background-color: rgba(255, 245, 0, 0.3);
+  width: 100%
 }
 
 .inner-div {
-  width: 100%;
+  text-align: center;
 }
 
 @keyframes fadeIn {

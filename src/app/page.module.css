@@ -1,0 +1,11 @@
+.title{
+  cursor: pointer;
+  border-style: solid;
+  border: none;
+  font-size: 30px;
+  width: 100vh;
+  text-align: center;
+  background-color: white;
+  padding-bottom: 15px;
+  font-family: Verdana;
+}
