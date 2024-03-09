@@ -1,6 +1,9 @@
+"use client";
+
 import Image from "next/image";
 import eee from "./page.module.css";
 import AbcTest from "./abc";
+import DropDownMenu from "./components/DropDownMenu";
 
 export default function Home() {
   const handleOptionClick = (option: string) => {
@@ -12,8 +15,12 @@ export default function Home() {
       text: "Option 1",
       onClick: handleOptionClick,
     },
-    { text: "Option 2", onClick: handleOptionClick },
+    { text: "Option 2", 
+      onClick: handleOptionClick },
   ];
 
-  return <main></main>;
+  return (<main>
+      <DropDownMenu options={options} defaultText={"Classes"}/>
+      <AbcTest/>
+  </main>);
 }
