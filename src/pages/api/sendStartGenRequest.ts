@@ -1,12 +1,14 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import * as fs from "fs";
+import { sendDataAI } from "../../internal/SendDataAI";
 
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  const filePath = "json/data.json";
-  const fileContents = JSON.parse(await fs.promises.readFile(filePath, "utf8"));
+  const parsed = JSON.parse(req.body);
 
-  res.status(200).json(fileContents);
+  //sendDataAI()
+
+  res.status(200).json({ success: true });
 }

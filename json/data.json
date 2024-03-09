@@ -1,0 +1,15 @@
+{
+    "schem": ["Alg1", "Alg2", "English", "General"],
+    "Alg1": 
+        {
+            "prompt": "this is a sample prompt that we can customize later"
+        },
+    "Alg2": 
+        {
+            "prompt": "this is a sample prompt that we can customize later"
+        },
+    "English": 
+        {
+            "prompt": "this is a sample prompt that we can customize later"
+        }
+}
