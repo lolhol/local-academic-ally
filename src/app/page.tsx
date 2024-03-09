@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import eee from "./page.module.css";
-import AbcTest from "./abc";
 import DropDownMenu from "./components/DropDownMenu";
 import page_css from "./page.module.css";
 import { useEffect, useState } from "react";
