@@ -1,11 +1,20 @@
 .title{
-  cursor: pointer;
   border-style: solid;
   border: none;
-  font-size: 30px;
-  width: 100vh;
+  font-size: 50px;
+  width: 100%;
   text-align: center;
   background-color: white;
-  padding-bottom: 15px;
   font-family: Verdana;
+  margin-bottom: 2.5vh;
+  margin-top: 0;
+}
+
+.d1{
+  text-align: right;
+}
+
+.buttonContainer{
+  text-align: center;
+  position: relative;
 }

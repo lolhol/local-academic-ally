@@ -1,35 +1,28 @@
+/* Updated class names for better consistency */
+
 .dropdown-main {
-  position: relative;
-  user-select: none;
-  align-items: center;
-  text-align: center;
-  padding-top: 20px;
-  display: inline-block;
-  vertical-align: top;
+  position: relative; /* Changed to relative for better positioning */
+}
+
+.dropdown-main-button,
+.dropdown-options-div,
+.dropdown-option-button {
+  cursor: pointer;
 }
 
 .dropdown-main-button {
-  cursor: pointer;
-  border-style: solid;
   border: none;
-  font-size: 30px;
-  text-align: center;
-  background-color: white;
-  padding-bottom: 15px;
 }
 
-.dropdown-main-button-border-default {
-  border-style: solid;
-  border: none;
-  cursor: pointer;
+.dropdown-main-button:hover {
+  border: 1px solid transparent; /* Added to maintain consistency with border on open */
 }
 
 .dropdown-main-button-border-open {
   border-style: solid;
-  animation: underlineGradualy 0.5s;
+  animation: underlineGradually 0.5s;
   text-align: center;
   border-width: 1px;
-  cursor: pointer;
 }
 
 .button-icon-closed {
@@ -42,24 +35,12 @@
   transform: rotate(0deg);
 }
 
-.dropdown-option-button {
-  border-radius: 2px;
-  text-align: center;
-  border: none;
-  cursor: pointer;
-  font-size: 30px;
-  padding-bottom: 15px;
-  padding-top: 15px;
-  background-color: transparent;
-}
-
 .dropdown-options-div {
   animation: fadeIn 0.5s;
 }
 
 .dropdown-option-button:hover {
   background-color: rgba(255, 245, 0, 0.3);
-  width: 100%;
 }
 
 .inner-div {
@@ -75,7 +56,7 @@
   }
 }
 
-@keyframes underlineGradualy {
+@keyframes underlineGradually {
   0% {
     transform: scaleX(0);
     transform-origin: 50% 0;

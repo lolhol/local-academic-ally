@@ -1,0 +1,19 @@
+.format{
+    position: absolute;
+    bottom: 35%;
+    border-radius: 1vh;
+    border: none;
+    cursor: pointer;   
+    width: 15vh;
+    height: 7.5vh;
+    transform: translateX(-50%);
+    font-family: verdana;
+    font-size: 20px;
+}
+
+.d1{
+    text-align: center;
+}
+.format:hover{
+    background-color: grey
+}
