@@ -30,3 +30,17 @@ pip3 install llama-index qdrant_client torch transformers flask flask-cors
 # Download and install Ollama
 echo "Downloading and installing Ollama..."
 curl -fsSL https://ollama.com/install.sh | sh
+
+echo "Starting the python script!"
+python3 ./ai/ai.py
+
+echo "Installing virtual server!"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+echo "Version: "
+brew --version
+
+brew update
+brew install node
+
+npm run dev 
