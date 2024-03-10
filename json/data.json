@@ -86,19 +86,19 @@
     "Grammar": {
       "level_schem": ["level 1", "level 2", "level 3", "level 4", "level 5"],
       "level 1": {
-        "prompt": "You are the teacher for the first unit of Grammar."
+        "prompt": "You are the teacher for the first unit of Grammar: nouns"
       },
       "level 2": {
-        "prompt": "You are the teacher for the second unit of Grammar."
+        "prompt": "You are the teacher for the second unit of Grammar: pronouns"
       },
       "level 3": {
-        "prompt": "You are the teacher for the third unit of Grammar."
+        "prompt": "You are the teacher for the third unit of Grammar: verbs, adverbs, and prepositions"
       },
       "level 4": {
-        "prompt": "You are the teacher for the fourth unit of Grammar."
+        "prompt": "You are the teacher for the fourth unit of Grammar: making sentences"
       },
       "level 5": {
-        "prompt": "You are the teacher for the fith unit of Grammar."
+        "prompt": "You are the teacher for the fith unit of Grammar: more advanced topics such as sentence diagramming"
       }
     }
   },
@@ -107,55 +107,55 @@
     "The Book Thief": {
       "level_schem": ["level 1", "level 2", "level 3", "level 4", "level 5"],
       "level 1": {
-        "prompt": "You are the teacher for the first unit of Reading for the book The Book Theif."
+        "prompt": "You are the teacher for the first unit of Reading for the book The Book Thief: chapters 1-5"
       },
       "level 2": {
-        "prompt": "You are the teacher for the second unit of Reading for the book The Book Theif."
+        "prompt": "You are the teacher for the second unit of Reading for the book The Book Theif: chapters 6-10"
       },
       "level 3": {
-        "prompt": "You are the teacher for the third unit of Reading for the book The Book Theif."
+        "prompt": "You are the teacher for the third unit of Reading for the book The Book Theif: chapters 11-15"
       },
       "level 4": {
-        "prompt": "You are the teacher for the fourth unit of Reading for the book The Book Theif."
+        "prompt": "You are the teacher for the fourth unit of Reading for the book The Book Theif: chapters 16-20"
       },
       "level 5": {
-        "prompt": "You are the teacher for the fith unit of Reading for the book The Book Theif."
+        "prompt": "You are the teacher for the fith unit of Reading for the book The Book Theif: chapters 21-25"
       }
     },
     "Of Mice and Men": {
       "level_schem": ["level 1", "level 2", "level 3", "level 4", "level 5"],
       "level 1": {
-        "prompt": "You are the teacher for the first unit of Reading for the boook Of Mice and Men."
+        "prompt": "You are the teacher for the first unit of Reading for the book Of Mice and Men: chapter 1 and 2"
       },
       "level 2": {
-        "prompt": "You are the teacher for the second unit of Reading for the boook Of Mice and Men."
+        "prompt": "You are the teacher for the second unit of Reading for the book Of Mice and Men: chapter 3 and 4"
       },
       "level 3": {
-        "prompt": "You are the teacher for the third unit of Reading for the boook Of Mice and Men."
+        "prompt": "You are the teacher for the third unit of Reading for the book Of Mice and Men: chapter 5 and 6"
       },
       "level 4": {
-        "prompt": "You are the teacher for the fourth unit of Reading for the boook Of Mice and Men."
+        "prompt": "You are the teacher for the fourth unit of Reading for the book Of Mice and Men: chapter 7 and 8"
       },
       "level 5": {
-        "prompt": "You are the teacher for the fith unit of Reading for the boook Of Mice and Men."
+        "prompt": "You are the teacher for the fith unit of Reading for the book Of Mice and Men: chapter 9 and 10"
       }
     },
     "Aesops Fables": {
       "level_schem": ["level 1", "level 2", "level 3", "level 4", "level 5"],
       "level 1": {
-        "prompt": "You are the teacher for the first unit of Reading for the boook Aesops Fables."
+        "prompt": "You are the teacher for the first unit of Reading for the book Aesops Fables: part 1"
       },
       "level 2": {
-        "prompt": "You are the teacher for the second unit of Reading for the boook Aesops Fables."
+        "prompt": "You are the teacher for the second unit of Reading for the book Aesops Fables: part 2"
       },
       "level 3": {
-        "prompt": "You are the teacher for the third unit of Reading for the boook Aesops Fables."
+        "prompt": "You are the teacher for the third unit of Reading for the book Aesops Fables: part 3"
       },
       "level 4": {
-        "prompt": "You are the teacher for the fourth unit of Reading for the boook Aesops Fables."
+        "prompt": "You are the teacher for the fourth unit of Reading for the book Aesops Fables: part 4"
       },
       "level 5": {
-        "prompt": "You are the teacher for the fith unit of Reading for the boook Aesops Fables."
+        "prompt": "You are the teacher for the fith unit of Reading for the book Aesops Fables: part 5"
       }
     }
   }
