@@ -41,6 +41,33 @@ export default function Home() {
     setSubjectArrPos(tmp);
   };
 
+  const fetchResponseAI = async (prompt1: string) => {
+    try {
+      console.log(prompt1);
+      const body = { prompt: prompt1 };
+      const response = await fetch("/api/requestChat", {
+        method: "POST",
+        body: JSON.stringify(body),
+      });
+      const data = await response.json();
+      console.log(data);
+    } catch (error) {
+      console.error("Error fetching response from AI:", error);
+    }
+  };
+
+  const getResAI = async () => {
+    try {
+      const response = await fetch("/api/getResponseAI", {
+        method: "POST",
+      });
+      const data = await response.json();
+      console.log(data);
+    } catch (error) {
+      console.error("Error fetching response from AI:", error);
+    }
+  };
+
   useEffect(() => {
     fetchCourses();
   }, []);
@@ -123,7 +150,19 @@ export default function Home() {
       <Button
         name={"Teach"}
         onClick={function (buttonName: string): void {
-          console.log("clicked");
+          console.log(
+            courses +
+              " " +
+              " " +
+              subjectArr[0] +
+              " " +
+              subjectArr[1] +
+              " " +
+              subjectArr[2]
+          );
+          fetchResponseAI(
+            courses[subjectArr[0]][subjectArr[1]][subjectArr[2]].prompt
+          );
         }}
       />
     </main>
