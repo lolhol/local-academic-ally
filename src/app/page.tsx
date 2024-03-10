@@ -7,10 +7,13 @@ import page_css from "./page.module.css";
 import { useEffect, useState } from "react";
 import Button from "./components/Button";
 import DropDownImage from "./components/DropDownImage";
+import { useRouter } from "next/navigation";
 export default function Home() {
   const [courses, setCourses] = useState<any>();
   const [subjectArr, setSubjectArrPos] = useState(["", "", ""]);
   const [curImageSelected, setCurImageSelected] = useState("");
+
+  const router = useRouter();
 
   const fetchCourses = async () => {
     try {
@@ -66,6 +69,10 @@ export default function Home() {
     } catch (error) {
       console.error("Error fetching response from AI:", error);
     }
+  };
+
+  const handleButtonClick = () => {
+    router.push("/page2");
   };
 
   useEffect(() => {
@@ -163,6 +170,8 @@ export default function Home() {
           fetchResponseAI(
             courses[subjectArr[0]][subjectArr[1]][subjectArr[2]].prompt
           );
+
+          handleButtonClick();
         }}
       />
     </main>

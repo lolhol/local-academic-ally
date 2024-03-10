@@ -15,6 +15,6 @@ export default async function handler(
     res.status(200).json({ success: true });
   } catch (err) {
     console.error("Error writing file:", err);
-    res.status(500).json({ success: false, error: "Internal Server Error" });
+    res.status(200).json({ success: false, error: "Internal Server Error" });
   }
 }
