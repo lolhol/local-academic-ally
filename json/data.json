@@ -1,15 +1,174 @@
 {
-    "schem": ["Alg1", "Alg2", "English", "General"],
-    "Alg1": 
-        {
-            "prompt": "this is a sample prompt that we can customize later"
-        },
-    "Alg2": 
-        {
-            "prompt": "this is a sample prompt that we can customize later"
-        },
-    "English": 
-        {
-            "prompt": "this is a sample prompt that we can customize later"
-        }
+  "schem": ["math", "writing", "reading"],
+  "math": {
+    "subjects_schem": ["Algebra 1", "Geometry", "Algebra 2", "Precalculus"],
+    "Algebra 1": {
+      "level_schem": ["level 1", "level 2", "level 3", "level 4", "level 5"],
+      "level 1": {
+        "prompt": ""
+      },
+      "level 2": {
+        "prompt": ""
+      },
+      "level 3": {
+        "prompt": ""
+      },
+      "level 4": {
+        "prompt": ""
+      },
+      "level 5": {
+        "prompt": ""
+      }
+    },
+    "Geometry": {
+      "level_schem": ["level 1", "level 2", "level 3", "level 4", "level 5"],
+      "level 1": {
+        "prompt": ""
+      },
+      "level 2": {
+        "prompt": ""
+      },
+      "level 3": {
+        "prompt": ""
+      },
+      "level 4": {
+        "prompt": ""
+      },
+      "level 5": {
+        "prompt": ""
+      }
+    },
+    "Algebra 2": {
+      "level_schem": ["level 1", "level 2", "level 3", "level 4", "level 5"],
+      "level 1": {
+        "prompt": ""
+      },
+      "level 2": {
+        "prompt": ""
+      },
+      "level 3": {
+        "prompt": ""
+      },
+      "level 4": {
+        "prompt": ""
+      },
+      "level 5": {
+        "prompt": ""
+      }
+    },
+    "Precalculus": {
+      "level_schem": ["level 1", "level 2", "level 3", "level 4", "level 5"],
+      "level 1": {
+        "prompt": ""
+      },
+      "level 2": {
+        "prompt": ""
+      },
+      "level 3": {
+        "prompt": ""
+      },
+      "level 4": {
+        "prompt": ""
+      },
+      "level 5": {
+        "prompt": ""
+      }
+    }
+  },
+  "writing": {
+    "subjects_schem": ["Vocabulary", "Grammar"],
+    "Vocabulary": {
+      "level_schem": ["level 1", "level 2", "level 3", "level 4", "level 5"],
+      "level 1": {
+        "prompt": ""
+      },
+      "level 2": {
+        "prompt": ""
+      },
+      "level 3": {
+        "prompt": ""
+      },
+      "level 4": {
+        "prompt": ""
+      },
+      "level 5": {
+        "prompt": ""
+      }
+    },
+    "Grammar": {
+      "level_schem": ["level 1", "level 2", "level 3", "level 4", "level 5"],
+      "level 1": {
+        "prompt": ""
+      },
+      "level 2": {
+        "prompt": ""
+      },
+      "level 3": {
+        "prompt": ""
+      },
+      "level 4": {
+        "prompt": ""
+      },
+      "level 5": {
+        "prompt": ""
+      }
+    }
+  },
+  "reading": {
+    "subjects_schem": ["The Book Thief", "Of Mice and Men", "Aesops Fables"],
+    "The Book Thief": {
+      "level_schem": ["level 1", "level 2", "level 3", "level 4", "level 5"],
+      "level 1": {
+        "prompt": ""
+      },
+      "level 2": {
+        "prompt": ""
+      },
+      "level 3": {
+        "prompt": ""
+      },
+      "level 4": {
+        "prompt": ""
+      },
+      "level 5": {
+        "prompt": ""
+      }
+    },
+    "Of Mice and Men": {
+      "level_schem": ["level 1", "level 2", "level 3", "level 4", "level 5"],
+      "level 1": {
+        "prompt": ""
+      },
+      "level 2": {
+        "prompt": ""
+      },
+      "level 3": {
+        "prompt": ""
+      },
+      "level 4": {
+        "prompt": ""
+      },
+      "level 5": {
+        "prompt": ""
+      }
+    },
+    "Aesops Fables": {
+      "level_schem": ["level 1", "level 2", "level 3", "level 4", "level 5"],
+      "level 1": {
+        "prompt": ""
+      },
+      "level 2": {
+        "prompt": ""
+      },
+      "level 3": {
+        "prompt": ""
+      },
+      "level 4": {
+        "prompt": ""
+      },
+      "level 5": {
+        "prompt": ""
+      }
+    }
+  }
 }
