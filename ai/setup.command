@@ -43,4 +43,6 @@ brew --version
 
 brew install node
 
+npm install next react react-dom
+
 npm run dev
