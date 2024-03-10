@@ -1,3 +1,51 @@
+.div {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
 .title {
-  font-size: 50;
+  font-family: Verdana;
+  font-size: 30px;
+  padding-right: 20px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.load {
+  padding-top: 30px;
+  width: 5vh;
+  height: 5vh;
+}
+
+.text {
+  font-family: Verdana;
+  font-size: 30px;
+  border-style: solid;
+}
+
+.input {
+  font-family: Verdana;
+  font-size: 10px;
+  border-style: solid;
+  padding: 15px;
+}
+
+.submit {
+  font-family: Verdana;
+  font-size: 10px;
+  border-style: solid;
+  padding: 15px;
+}
+
+.div2 {
+  text-align: center;
+  justify-content: center;
 }

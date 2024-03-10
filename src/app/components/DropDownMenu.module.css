@@ -6,6 +6,8 @@
   padding-top: 20px;
   display: inline-block;
   vertical-align: top;
+  padding-left: 12.96%;
+  padding-right: 12.96%;
 }
 
 .dropdown-main-button {
@@ -27,7 +29,6 @@
 .dropdown-main-button-border-open {
   border-style: solid;
   animation: underlineGradualy 0.5s;
-  text-align: center;
   border-width: 1px;
   cursor: pointer;
 }
@@ -59,13 +60,7 @@
 
 .dropdown-option-button:hover {
   background-color: rgba(255, 245, 0, 0.3);
-  width: 100%;
 }
-
-.inner-div {
-  text-align: center;
-}
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
