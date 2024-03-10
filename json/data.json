@@ -5,73 +5,67 @@
     "Algebra 1": {
       "level_schem": ["level 1", "level 2", "level 3", "level 4", "level 5"],
       "level 1": {
-        "prompt": "You are the teacher for the first unit of Algebra 1."
+        "prompt": "You are the teacher for the first unit of Algebra 1: review of prealgebra."
       },
       "level 2": {
-        "prompt": "You are the teacher for the second unit of Algebra 1."
+        "prompt": "You are the teacher for the second unit of Algebra 1: sequences and series."
       },
       "level 3": {
-        "prompt": "You are the teacher for the third unit of Algebra 1."
+        "prompt": "You are the teacher for the third unit of Algebra 1: factoring."
       },
       "level 4": {
-        "prompt": "You are the teacher for the fourth unit of Algebra 1."
+        "prompt": "You are the teacher for the fourth unit of Algebra 1: graphing parabolas."
       },
       "level 5": {
-        "prompt": "You are the teacher for the fith unit of Algebra 1."
+        "prompt": "You are the teacher for the fith unit of Algebra 1: solving equations."
       }
     },
     "Geometry": {
       "level_schem": ["level 1", "level 2", "level 3", "level 4", "level 5"],
       "level 1": {
-        "prompt": "You are the teacher for the first unit of Geometry."
+        "prompt": "You are the teacher for the first unit of Geometry: proofs of triangles."
       },
       "level 2": {
-        "prompt": "You are the teacher for the second unit of Geometry."
+        "prompt": "You are the teacher for the second unit of Geometry: proofs of quadrilaterals."
       },
       "level 3": {
-        "prompt": "You are the teacher for the third unit of Geometry."
+        "prompt": "You are the teacher for the third unit of Geometry: probability and statistics."
       },
       "level 4": {
-        "prompt": "You are the teacher for the fourth unit of Geometry."
-      },
-      "level 5": {
-        "prompt": "You are the teacher for the fith unit of Geometry."
+        "prompt": "You are the teacher for the fourth unit of Geometry: trigonometry."
       }
     },
     "Algebra 2": {
       "level_schem": ["level 1", "level 2", "level 3", "level 4", "level 5"],
       "level 1": {
-        "prompt": "You are the teacher for the first unit of Geometry."
+        "prompt": "You are the teacher for the first unit of Algebra 2: review of Algebra 1."
       },
       "level 2": {
-        "prompt": "You are the teacher for the second unit of Geometry."
+        "prompt": "You are the teacher for the second unit of Algebra 2: more sequences and series."
       },
       "level 3": {
-        "prompt": "You are the teacher for the third unit of Geometry."
+        "prompt": "You are the teacher for the third unit of Algebra 2: function transformations."
       },
       "level 4": {
-        "prompt": "You are the teacher for the fourth unit of Geometry."
+        "prompt": "You are the teacher for the fourth unit of Algebra 2: graphing conics."
       },
       "level 5": {
-        "prompt": "You are the teacher for the fith unit of Geometry."
+        "prompt": "You are the teacher for the fith unit of Algebra 2: logarithms."
       }
     },
     "Precalculus": {
       "level_schem": ["level 1", "level 2", "level 3", "level 4", "level 5"],
       "level 1": {
-        "prompt": "You are the teacher for the first unit of Precalculus."
+        "prompt": "You are the teacher for the first unit of Precalculus: review of Algebra 2."
       },
       "level 2": {
-        "prompt": "You are the teacher for the second unit of Precalculus."
+        "prompt": "You are the teacher for the second unit of Precalculus: advanced trigonometry."
       },
       "level 3": {
-        "prompt": "You are the teacher for the third unit of Precalculus."
+        "prompt": "You are the teacher for the third unit of Precalculus: polar coordinates and functions."
       },
       "level 4": {
-        "prompt": "You are the teacher for the fourth unit of Precalculus."
-      },
-      "level 5": {
-        "prompt": "You are the teacher for the fith unit of Precalculus."
+        "prompt": "You are the teacher for the fourth unit of Precalculus: matrices and vectors."
       }
     }
   },
@@ -80,37 +74,31 @@
     "Vocabulary": {
       "level_schem": ["level 1", "level 2", "level 3", "level 4", "level 5"],
       "level 1": {
-        "prompt": "You are the teacher for the first unit of Vocabulary."
+        "prompt": "You are the teacher for the first unit of Vocabulary: basic/everyday vocabulary."
       },
       "level 2": {
-        "prompt": "You are the teacher for the second unit of Vocabulary."
+        "prompt": "You are the teacher for the second unit of Vocabulary: intermediate level vocabulary."
       },
       "level 3": {
-        "prompt": "You are the teacher for the third unit of Vocabulary."
-      },
-      "level 4": {
-        "prompt": "You are the teacher for the fourth unit of Vocabulary."
-      },
-      "level 5": {
-        "prompt": "You are the teacher for the fith unit of Vocabulary."
+        "prompt": "You are the teacher for the third unit of Vocabulary: advanced level vocabulary."
       }
     },
     "Grammar": {
       "level_schem": ["level 1", "level 2", "level 3", "level 4", "level 5"],
       "level 1": {
-        "prompt": "You are the teacher for the first unit of Grammar."
+        "prompt": "You are the teacher for the first unit of Grammar: nouns"
       },
       "level 2": {
-        "prompt": "You are the teacher for the second unit of Grammar."
+        "prompt": "You are the teacher for the second unit of Grammar: pronouns"
       },
       "level 3": {
-        "prompt": "You are the teacher for the third unit of Grammar."
+        "prompt": "You are the teacher for the third unit of Grammar: verbs, adverbs, and prepositions"
       },
       "level 4": {
-        "prompt": "You are the teacher for the fourth unit of Grammar."
+        "prompt": "You are the teacher for the fourth unit of Grammar: making sentences"
       },
       "level 5": {
-        "prompt": "You are the teacher for the fith unit of Grammar."
+        "prompt": "You are the teacher for the fith unit of Grammar: more advanced topics such as sentence diagramming"
       }
     }
   },
@@ -119,55 +107,55 @@
     "The Book Thief": {
       "level_schem": ["level 1", "level 2", "level 3", "level 4", "level 5"],
       "level 1": {
-        "prompt": "You are the teacher for the first unit of Reading for the book The Book Theif."
+        "prompt": "You are the teacher for the first unit of Reading for the book The Book Thief: chapters 1-5"
       },
       "level 2": {
-        "prompt": "You are the teacher for the second unit of Reading for the book The Book Theif."
+        "prompt": "You are the teacher for the second unit of Reading for the book The Book Theif: chapters 6-10"
       },
       "level 3": {
-        "prompt": "You are the teacher for the third unit of Reading for the book The Book Theif."
+        "prompt": "You are the teacher for the third unit of Reading for the book The Book Theif: chapters 11-15"
       },
       "level 4": {
-        "prompt": "You are the teacher for the fourth unit of Reading for the book The Book Theif."
+        "prompt": "You are the teacher for the fourth unit of Reading for the book The Book Theif: chapters 16-20"
       },
       "level 5": {
-        "prompt": "You are the teacher for the fith unit of Reading for the book The Book Theif."
+        "prompt": "You are the teacher for the fith unit of Reading for the book The Book Theif: chapters 21-25"
       }
     },
     "Of Mice and Men": {
       "level_schem": ["level 1", "level 2", "level 3", "level 4", "level 5"],
       "level 1": {
-        "prompt": "You are the teacher for the first unit of Reading for the boook Of Mice and Men."
+        "prompt": "You are the teacher for the first unit of Reading for the book Of Mice and Men: chapter 1 and 2"
       },
       "level 2": {
-        "prompt": "You are the teacher for the second unit of Reading for the boook Of Mice and Men."
+        "prompt": "You are the teacher for the second unit of Reading for the book Of Mice and Men: chapter 3 and 4"
       },
       "level 3": {
-        "prompt": "You are the teacher for the third unit of Reading for the boook Of Mice and Men."
+        "prompt": "You are the teacher for the third unit of Reading for the book Of Mice and Men: chapter 5 and 6"
       },
       "level 4": {
-        "prompt": "You are the teacher for the fourth unit of Reading for the boook Of Mice and Men."
+        "prompt": "You are the teacher for the fourth unit of Reading for the book Of Mice and Men: chapter 7 and 8"
       },
       "level 5": {
-        "prompt": "You are the teacher for the fith unit of Reading for the boook Of Mice and Men."
+        "prompt": "You are the teacher for the fith unit of Reading for the book Of Mice and Men: chapter 9 and 10"
       }
     },
     "Aesops Fables": {
       "level_schem": ["level 1", "level 2", "level 3", "level 4", "level 5"],
       "level 1": {
-        "prompt": "You are the teacher for the first unit of Reading for the boook Aesops Fables."
+        "prompt": "You are the teacher for the first unit of Reading for the book Aesops Fables: part 1"
       },
       "level 2": {
-        "prompt": "You are the teacher for the second unit of Reading for the boook Aesops Fables."
+        "prompt": "You are the teacher for the second unit of Reading for the book Aesops Fables: part 2"
       },
       "level 3": {
-        "prompt": "You are the teacher for the third unit of Reading for the boook Aesops Fables."
+        "prompt": "You are the teacher for the third unit of Reading for the book Aesops Fables: part 3"
       },
       "level 4": {
-        "prompt": "You are the teacher for the fourth unit of Reading for the boook Aesops Fables."
+        "prompt": "You are the teacher for the fourth unit of Reading for the book Aesops Fables: part 4"
       },
       "level 5": {
-        "prompt": "You are the teacher for the fith unit of Reading for the boook Aesops Fables."
+        "prompt": "You are the teacher for the fith unit of Reading for the book Aesops Fables: part 5"
       }
     }
   }
